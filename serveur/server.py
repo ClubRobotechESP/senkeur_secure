@@ -216,7 +216,6 @@ class ThreadSerial(Thread):
 				self.dataToSend = ""
 
 
-
 	def recvdatas(self):
 		"""reception des donnees"""
 		if self.running == True:
